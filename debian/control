@@ -1,0 +1,18 @@
+Source: golang-github-mdlayher-raw
+Section: devel
+Priority: optional
+Maintainer: Aron Xu <happyaron.xu@gmail.com>
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any,
+Standards-Version: 4.1.3
+Homepage: https://github.com/mdlayher/raw
+XS-Go-Import-Path: github.com/mdlayher/raw
+
+Package: golang-github-mdlayher-raw-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: Raw frame in golang
+ Package ethernet implements marshaling and unmarshaling of
+ IEEE 802.3 Ethernet II frames and IEEE 802.1Q VLAN tags. 
